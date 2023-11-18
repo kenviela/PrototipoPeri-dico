@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico en Línea</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <header>
+        <h1>La Noticia del día</h1>
+        <p>Noticias de última hora</p>
+        <div class="busqueda">
+            <input type="text" id="inputBusqueda" placeholder="Buscar...">
+            <button onclick="realizarBusqueda()">Buscar</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="../views/politica.html">Política</a>
+        <a href="../views/deportes.html">Deportes</a>
+        <a href="../views/cultura.html">Cultura</a>
+        <a href="../views/finanzas.html">Finanzas</a>
+        <a href="../views/empresa.html">Empresas</a>
+        <a href="../views/ultimasNoticias.html">Últimas Noticias</a>
+        <button id="btnAccesibilidad">A+/-</button>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Noticias de Deportes</h2>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Juegos Parapanamericanos Santiago 2023: Comenzó la cosecha dorada de Colombia</h3>
+                <div>
+                    <img src="https://www.elespectador.com/resizer/XFpA5O8YCr0k-gSg-b5n8CUYa60=/680x453/filters:quality(80):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/HL3SORI4RRBIDMQ7NFCINMKA5I.jpg" alt="Descripción de la imagen">
+                    <p>Los nadadores Sara Vargas y Carlos Daniel Serrano le dieron los primeros títulos a la delegación nacional en la capital chilena....</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Arquero de Atlético Nacional, involucrado en accidente de tránsito</h3>
+                <div>
+                    <img src="https://www.elespectador.com/resizer/GD6QmTpDpbGrMJQzG-Kakv-YvZ8=/260x174/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/2I5U4SOZEVGU3LPDHQUXXU7OCQ.jpg" alt="Descripción de la imagen">
+                    <p>El incidente que protagonizó Harlen “Chipi Chipi” Castillo ocurrió el lunes 6 de noviembre en la vía entre Rionegro y el aeropuerto José María Córdova, en el departamento de Antioquia...</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Imperio Dorado, la hinchada que coge vuelo con los triunfos de Águilas</h3>
+                <div>
+                    <img src="https://www.elespectador.com/resizer/zlpbOAduCUN5a8uBGmDX_tmiV7g=/968x645/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/FVFCJ24STZB3XGXTFZSUC7ZEGE.jpg" alt="Descripción de la imagen">
+                    <p>Los fieles seguidores se ilusionan con llegar a la final de la Liga BetPlay tras ser el mejor equipo del todos contra todos. Este sábado reciben a Deportes Tolima a partir de las 5:00 p.m.. Luego, también por el Cuadrangular A, Cali visita a Junior (7:30 p.m.)...</p>
+                </div>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Periódico. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../index.js"></script>
+</body>
+</html>

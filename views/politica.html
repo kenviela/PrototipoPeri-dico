@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico en Línea</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <header>
+        <h1>La Noticia del día</h1>
+        <p>Noticias de última hora</p>
+        <div class="busqueda">
+            <input type="text" id="inputBusqueda" placeholder="Buscar...">
+            <button onclick="realizarBusqueda()">Buscar</button>
+        </div>
+    </header>
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="../views/politica.html">Política</a>
+        <a href="../views/deportes.html">Deportes</a>
+        <a href="../views/cultura.html">Cultura</a>
+        <a href="../views/finanzas.html">Finanzas</a>
+        <a href="../views/empresa.html">Empresas</a>
+        <a href="../views/ultimasNoticias.html">Últimas Noticias</a>
+        <button id="btnAccesibilidad">A+/-</button>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Noticias de política</h2>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Antes de encuentro con Maduro, presidente Petro visitó la Fería del Libro de Venezuela</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_767_430/uploads/2023/11/18/6558ec1002caa.jpeg" alt="presidenteColombia">
+                    <p>El jefe de Estado participó en uno de los eventos de apertura del encuentro literario....</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Quinto ciclo con el Eln se aplaza hasta que jefes de delegación hablen de secuestro</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_767_513/uploads/2022/11/27/63840699a9626.jpeg" alt="Descripción de la imagen">
+                    <p>Delegaciones del Gobierno y de la guerrilla iban a reunirse en México la próxima semana....</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Las reacciones a los señalamientos de Mancuso contra el expresidente Uribe en la JEP</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_522_293/uploads/2023/07/23/64bd51a266692.png" alt="Descripción de la imagen">
+                    <p>El exparamilitar sostuvo que el exmandatario habría estado al tanto de la masacre del Aro....</p>
+                </div>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Periódico. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../index.js"></script>
+</body>
+</html>

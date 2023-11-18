@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico en Línea</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <header>
+        <h1>La Noticia del día</h1>
+        <p>Noticias de última hora</p>
+        <div class="busqueda">
+            <input type="text" id="inputBusqueda" placeholder="Buscar...">
+            <button onclick="realizarBusqueda()">Buscar</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="../views/politica.html">Política</a>
+        <a href="../views/deportes.html">Deportes</a>
+        <a href="../views/cultura.html">Cultura</a>
+        <a href="../views/finanzas.html">Finanzas</a>
+        <a href="../views/empresa.html">Empresas</a>
+        <a href="../views/ultimasNoticias.html">Últimas Noticias</a>
+        <button id="btnAccesibilidad">A+/-</button>
+    </nav>
+
+    <main>
+        <section id="enmpresa">
+            <h2>Noticias de Empresas</h2>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Más de 600 demoras en El Dorado se registraron por la reorganización de la Aerocivil</h3>
+                <div>
+                    <img src="https://img.lalr.co/cms/2021/04/06144945/El-Dorado-LR.jpg?size=sm" alt="Descripción de la imagen">
+                    <p>El viernes 19 de noviembre fue uno de los más complicados del año en el Aeropuerto Internacional El Dorado, cientos de personas no pudieron viajar según el horario en el que tenían programado su vuelo, hubo más...</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Cementos Argos, La Haus y Maluma se unen para impulsar la construcción de casas</h3>
+                <div>
+                    <img src="https://img.lalr.co/cms/2023/11/17192949/WhatsApp-Image-2023-11-17-at-12.11.10-PM.jpg?size=md" alt="Descripción de la imagen">
+                    <p>En 2022, La Haus y Juan Luis Londoño Arias, “Maluma”, anunciaron que dispondrán de $4.000 millones para impulsar la construcción de viviendas en los barrios de Medellín..</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Directivas del Marymount School de Medellín lo harán mixto desde el próximo año</h3>
+                <div>
+                    <img src="https://tpc.googlesyndication.com/simgad/8346626111522076965" alt="Descripción de la imagen">
+                    <p>El colegio, que cumple siete décadas, luego de una evaluación, tomó la decisión de incluir alumnos del género masculino a partir del año próximo</p>
+                </div>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 La Noticia del día. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../index.js"></script>
+</body>
+</html>

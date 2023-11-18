@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico en Línea</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <header>
+        <h1>La Noticia del día</h1>
+        <p>Noticias de última hora</p>
+        <div class="busqueda">
+            <input type="text" id="inputBusqueda" placeholder="Buscar...">
+            <button onclick="realizarBusqueda()">Buscar</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="../views/politica.html">Política</a>
+        <a href="../views/deportes.html">Deportes</a>
+        <a href="../views/cultura.html">Cultura</a>
+        <a href="../views/finanzas.html">Finanzas</a>
+        <a href="../views/empresa.html">Empresas</a>
+        <a href="../views/ultimasNoticias.html">Últimas Noticias</a>
+        <button id="btnAccesibilidad">A+/-</button>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Noticias de Cultura</h2>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>Latam 50 Best: ¿cuánto vale comer en los nuevos restaurantes colombianos incluidos?</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_767_513/uploads/2023/11/16/65564679bd123.jpeg" alt="Descripción de la imagen">
+                    <p>Oda, de Bogotá, y Manuel, de Barranquilla, son los dos nuevos restaurantes colombianos incluidos en el listado extendido de los mejores sitios de Latinoamérica ,que este jueves reveló el ranking extendido, es decir, los que se ubican del 51 al 100. </p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>La impactante muerte de Lady Di se revive en la serie 'The Crown'</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_767_513/uploads/2023/11/16/6556a86483f72.jpeg" alt="Descripción de la imagen">
+                    <p>Ella sabía que tras rodar las escenas de estos depredadores de exclusivas y escándalos, su vida volvía a la normalidad, pero no dejó de sentirse incómoda por esa dinámica que tuvo que aprender a controlar su personaje en la vida real...</p>
+                </div>
+            </article>
+            </a>
+            <a href="../views/ultimasNoticias.html">
+                <article>
+                <h3>La premiación de los Globos de Oro en 2024 se emitirá por la cadena de televisión CBS</h3>
+                <div>
+                    <img src="https://www.eltiempo.com/files/image_767_430/uploads/2022/01/08/61da5b5e9258a.jpeg" alt="Descripción de la imagen">
+                    <p>La 81ª edición de los galardones también se podrá ver en la plataforma de 'streaming' Paramount +.</p>
+                </div>
+            </article>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Periódico. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../index.js"></script>
+</body>
+</html>
